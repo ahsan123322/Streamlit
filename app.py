@@ -13,6 +13,9 @@ def query(payload):
 def app():
     # Set the app title
     st.title("Image Generator")
+    st.write("This app generates images from text input.")
+    st.write("Developed by ahsan")
+    
 
     # Add a text input field for the user to enter text
     text_input = st.text_input("Enter text")
